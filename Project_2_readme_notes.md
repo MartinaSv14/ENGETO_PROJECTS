@@ -6,8 +6,8 @@ _Note: Tady si myslím, že by určitě šel test více optimalizovat, je zbyte�
 
 ### 2_TEST
 
-Cílem testu je ověřit znění Page title na stránce https://engeto.cz/absolventi/. Test obsahuje invalidní hodnotu na řádku 13.
+Cílem testu je ověřit znění Page title na stránce https://engeto.cz/absolventi/. Test obsahuje invalidní hodnotu na řádku 13, pokud se test spustí s tímto řádkem, neměl by passnout.
 
 ### 3_TEST
 
-Cílem testu je ověřit, zda se na stránce https://engeto.cz/terminy/ vyskytuje alespoň jeden termín kurzu. Test si skrze lokátor najde tlačítko _Termín kurzu_, které spočítá a funkcí _Assert_ zkontroluje, zda je počet tlačítek větší než 0.
+Cílem testu je ověřit, zda se na stránce https://engeto.cz/terminy/ vyskytuje alespoň jeden termín kurzu. Test si skrze lokátor najde tlačítko _Termín kurzu_, které spočítá a funkcí _assert_ zkontroluje, zda je počet tlačítek větší než 0.
