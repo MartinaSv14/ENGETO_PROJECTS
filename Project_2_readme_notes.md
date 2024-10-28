@@ -11,3 +11,5 @@ Cílem testu je ověřit znění Page title na stránce https://engeto.cz/absolv
 ### 3_TEST
 
 Cílem testu je ověřit, zda se na stránce https://engeto.cz/terminy/ vyskytuje alespoň jeden termín kurzu. Test si skrze lokátor najde tlačítko _Termín kurzu_, které spočítá a funkcí _assert_ zkontroluje, zda je počet tlačítek větší než 0.
+
+_Note: Musela jsem si pomoct funkcí timeout na řádku 16, bez ní mi automaticky spuštěný test pokaždé vracel jiný součet (jako by vždy záleželo, jak rychle se stránka stihla načíst a jaký počet tlačítek test zachytil). Teprve až když jsem test procházela v Playwright Inspectoru a chvíli na stránce s termíny počkala, vypadalo to, že měl test dost času tlačítka spočítat a vrátil mi správný součet._
