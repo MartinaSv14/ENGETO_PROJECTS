@@ -1,7 +1,6 @@
 #Test to check whether there is at least 1 course available on https://engeto.cz/terminy/.
 
 def test_count_date_filters(page):
-    page.set_default_timeout(100000)
     print("Navigating to Engeto")
     page.goto("https://engeto.cz/")
     
