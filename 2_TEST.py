@@ -24,23 +24,3 @@ def test_check_page_title(page):
     print(f"Page title: {page.title()}, while expected: Reference a příběhy absolventů | ENGETO")
     expect(page).to_have_title("Reference a příběhy absolventů | ENGETO")
     
-
-
-
-
-
-    
-
-
-
-# Assert the page title
-   # pageTitle = page.Title
-    #if (pageTitle -eq "Reference a příběhy absolventů | ENGETO")
-    #print("Page title is correct")
-    #else {
-    #print("Page title is incorrect")
-
-
-    #button = page.get_by_role("button", name="Souhlasím s vybranými", exact=True)
-   # button.click()
-
