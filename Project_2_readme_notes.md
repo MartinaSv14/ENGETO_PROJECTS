@@ -10,4 +10,4 @@ Cílem testu je ověřit znění Page title na stránce https://engeto.cz/absolv
 
 ### 3_TEST
 
-Cílem testu je ověřit, zda se na stránce https://engeto.cz/terminy/ vyskytuje alespoň jeden termín kurzu.
+Cílem testu je ověřit, zda se na stránce https://engeto.cz/terminy/ vyskytuje alespoň jeden termín kurzu. Test si skrze lokátor najde tlačítko _Termín kurzu_, které spočítá a funkcí _Assert_ zkontroluje, zda je počet tlačítek větší než 0.
